@@ -1,16 +1,16 @@
-# <img src='./ui/logo.png' width='50' height='50' style='vertical-align:bottom'/>KickassTorrents Skill
+# <img src='./ui/logo.png' width='50' height='50' style='vertical-align:bottom'/>Kickass Torrents Proxy Skill
 
-KickassTorrents OCP peerflix Skill
+Kickass Torrents OCP peerflix Skill
 
 You need to also install [skill-peerflix](https://github.com/JarbasSkills/skill-peerflix) for actual playback!
 
 ## About
 
-search and stream KickassTorrents Movies by voice!
+search and stream Kickass Torrents Movies by voice!
+
+The original website is long gone and there are many clones, this skill is using an [unofficial api hosted in heroku](https://kickass-api-unofficial.herokuapp.com) for https://katcr.to
 
 ![](./gui.png)
-
-The original website is long gone and there are many clones, this skill is using an unofficial api hosted in heroku for https://katcr.to
 
 ## Examples
 

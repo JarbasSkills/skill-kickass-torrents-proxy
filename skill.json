@@ -1,9 +1,9 @@
 {
-  "name": "KickassTorrents Skill",
-  "skillname": "skill-kickass-torrents",
+  "name": "Kickass Torrents Proxy Skill",
+  "skillname": "skill-kickass-torrents-proxy",
   "authorname": "JarbasSkills",
   "foldername": "",
-  "url": "https://github.com/JarbasSkills/skill-kickass-torrents",
+  "url": "https://github.com/JarbasSkills/skill-kickass-torrents-proxy",
   "branch": "dev",
   "desktopFile": false,
   "warning": "",
