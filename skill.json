@@ -1,0 +1,21 @@
+{
+  "name": "KickassTorrents Skill",
+  "skillname": "skill-kickass-torrents",
+  "authorname": "JarbasSkills",
+  "foldername": "",
+  "url": "https://github.com/JarbasSkills/skill-kickass-torrents",
+  "branch": "dev",
+  "desktopFile": false,
+  "warning": "",
+  "systemDeps": false,
+  "platforms": [
+    "arm",
+    "arm64",
+    "i386",
+    "x86_64",
+    "ia64"
+  ],
+  "examples": [
+    "play godzilla v kong"
+  ]
+}
