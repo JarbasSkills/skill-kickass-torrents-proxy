@@ -38,8 +38,11 @@ class KickAssTorrentsSkill(OVOSCommonPlaybackSkill):
         for key, res in results.items():
             title = res['title']
             page_url = res['page_url']
-            magnet = requests.get(API_MAGNET,
-                                  params={"page_url": page_url}).json()
+            try:
+                magnet = requests.get(API_MAGNET,
+                                      params={"page_url": page_url}).json()
+            except:
+                continue  # rate limited ?
             magnet_link = magnet['magnet']
             yield {"title": title, "magnet": magnet_link}
 
